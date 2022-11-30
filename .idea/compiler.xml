@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="online-taxi-public" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-passenger" target="1.8" />
+      <module name="intetnal-common" target="1.8" />
+      <module name="service-passenger-user" target="1.8" />
+      <module name="service-price" target="1.8" />
+      <module name="service-varificationcode" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
